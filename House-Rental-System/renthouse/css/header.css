@@ -1,0 +1,45 @@
+/* Style for the navigation bar */
+nav.navbar {
+  margin-bottom: 0; /* Remove margin at the bottom */
+}
+
+/* Style for the logo */
+.navbar-header img {
+  margin-top: 10px; /* Add some margin at the top */
+}
+
+/* Style for the links in the navigation bar */
+.navbar-nav > li > a {
+  color: #333; /* Change the link color */
+  font-weight: bold; /* Make the links bold */
+}
+
+/* Style for the active link in the navigation bar */
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .active > a:hover {
+  color: #fff; /* Change the active link color */
+  background-color: #337ab7; /* Add a background color */
+}
+
+/* Style for the user profile dropdown menu */
+.dropdown-menu {
+  background-color: #f8f8f8; /* Change the background color */
+}
+
+/* Style for the user profile dropdown menu links */
+.dropdown-menu > li > a {
+  color: #333; /* Change the link color */
+  font-weight: bold; /* Make the links bold */
+}
+
+/* Style for the Register and Login links */
+.navbar-right > li > a {
+  color: #333; /* Change the link color */
+  font-weight: bold; /* Make the links bold */
+}
+
+/* Style for the Register and Login links on hover */
+.navbar-right > li > a:hover {
+  color: #337ab7; /* Change the hover color */
+}
